@@ -1,0 +1,28 @@
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+staticfiles/
+media/
+.pytest_cache/
+.ruff_cache/
+
+# Env файлы — никогда не коммитить
+.env
+*.env.local
+
+# Node / React
+node_modules/
+dist/
+.eslintcache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
